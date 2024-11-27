@@ -9,6 +9,16 @@ public class Sample {
     this.value = value;
   }
   
+    public GetTime()
+    {
+        return time;
+    }
+    public GetValue()
+    {
+        return value;
+    }
+
+
   public override string ToString () {
     return "sample("+time+"→"+value+")";
   }
