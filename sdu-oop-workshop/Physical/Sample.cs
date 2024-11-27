@@ -9,11 +9,11 @@ public class Sample {
     this.value = value;
   }
   
-    public GetTime()
+    public int GetTime()
     {
         return time;
     }
-    public GetValue()
+    public double GetValue()
     {
         return value;
     }
